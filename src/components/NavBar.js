@@ -5,7 +5,7 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home" className="mx-auto ms-sm-0">
+        <Navbar.Brand href="#home" className="mx-auto ms-sm-0 me-sm-5">
             <h1 className='text-wrap'>Install Elteknik</h1>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"  className='mx-auto me-md-0'/>
