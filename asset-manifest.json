@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/install/static/css/main.31b5da3c.css",
-    "main.js": "/install/static/js/main.ae0e2686.js",
+    "main.js": "/install/static/js/main.aebe3060.js",
     "static/js/787.98726f40.chunk.js": "/install/static/js/787.98726f40.chunk.js",
     "static/media/hero.jpg": "/install/static/media/hero.107240a5b635845e2198.jpg",
-    "static/media/install-logo.png": "/install/static/media/install-logo.58e576612db9365a1b3e.png",
     "index.html": "/install/index.html",
     "main.31b5da3c.css.map": "/install/static/css/main.31b5da3c.css.map",
-    "main.ae0e2686.js.map": "/install/static/js/main.ae0e2686.js.map",
+    "main.aebe3060.js.map": "/install/static/js/main.aebe3060.js.map",
     "787.98726f40.chunk.js.map": "/install/static/js/787.98726f40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31b5da3c.css",
-    "static/js/main.ae0e2686.js"
+    "static/js/main.aebe3060.js"
   ]
 }
