@@ -9,6 +9,7 @@
     background: url('../assets/images/hero.jpg') center center no-repeat;
     background-size: cover; 
     height: 500px;
+    text-align: center;
 }
 
 .heroImage h1 {

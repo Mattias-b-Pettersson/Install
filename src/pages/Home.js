@@ -2,6 +2,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLightbulb} from '@fortawesome/free-solid-svg-icons';
 import React from 'react'
 import style from '../styles/Home.module.css'
+import { Link } from 'react-router-dom';
+
 
 function Home() {
   return (
@@ -11,9 +13,9 @@ function Home() {
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
               <h1 className='mb-3'><FontAwesomeIcon icon={faLightbulb} className="me-4 pb-1 d-none d-md-inline" />Vi lyser upp din vardag</h1>
-              <a className='btn btn-outline-light btn-lg' href='#!' role='button'>
+              <Link className='btn btn-outline-light btn-lg' to="/kontakt" role='button'>
                 Kontakta oss
-              </a>
+              </Link>
             </div>
           </div>
         </div>

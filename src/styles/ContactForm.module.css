@@ -1,0 +1,50 @@
+.form {
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form button {
+    background-color: #d25215;
+    border: none;
+    border-radius: 7px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form button:hover{
+    background-color: #b84713;
+}
+
+.formOuter {
+    background: url('../assets/images/lamps.jpg') center center no-repeat;
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.kontakt {
+    margin: 0 auto;
+    padding: 2rem;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.kontakt a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.kontakt a:hover{
+    color: #d25215;
+
+}
