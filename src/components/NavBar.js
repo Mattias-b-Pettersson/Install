@@ -13,8 +13,8 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav"  className='mx-auto me-md-0'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/" className='nav-link'>Hem</Link>
-            <Link to="/kontakt" className='nav-link'>Kontakta oss</Link>
+            <Link to="/install" className='nav-link'>Hem</Link>
+            <Link to="/install/kontakt" className='nav-link'>Kontakta oss</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

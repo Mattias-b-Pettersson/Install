@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <NavBar />
         <Routes>
-          <Route exact="true" path="/" element={<Home />} />
-          <Route exact="true" path="/kontakt" element={<ContactForm />} />
+          <Route exact="true" path="/install" element={<Home />} />
+          <Route exact="true" path="/install/kontakt" element={<ContactForm />} />
         </Routes>
     </div>
   );
