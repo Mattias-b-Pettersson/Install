@@ -23,12 +23,17 @@ function Home() {
           </div>
         </div>
       </div>
-    <Row className='mx-0 pb-4'>
-
-      <Col xs={8} className='m-0 p-0'>
-        
+    <Row className={`mx-0 pb-4 ${style.orangeGradientBg}`}>
+      <Col xs={8} className='d-flex align-items-center'>
+        <p className="px-md-5">
+          Install Elteknik, baserat i Stockholm, erbjuder ett brett utbud av elektriska tjänster för både bostäder och kommersiella fastigheter.
+          Från installationer och reparationer till underhåll och besiktningar har vi kunskapen och expertisen att hantera alla dina elektriska behov.
+          Vi är stolta över vår noggrannhet, tidsenlig service och engagemang för kundnöjdhet.
+          Vårt team av certifierade och erfarna elektriker är alltid redo att hjälpa dig med alla elektriska problem du kan stå inför.
+          Kontakta oss idag för alla dina elektriska behov i Stockholm och omgivande områden.
+        </p>
       </Col>
-      <Col xs={4} className='m-0 p-0'>
+      <Col xs={4} className=''>
         <Carousels />
       </Col>
     </Row>
