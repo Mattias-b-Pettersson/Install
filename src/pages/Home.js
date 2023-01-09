@@ -3,6 +3,9 @@ import { faLightbulb} from '@fortawesome/free-solid-svg-icons';
 import React from 'react'
 import style from '../styles/Home.module.css'
 import { Link } from 'react-router-dom';
+import "react-multi-carousel/lib/styles.css";
+import Carousels from '../components/Carousel';
+import { Col, Row } from 'react-bootstrap';
 
 
 function Home() {
@@ -20,6 +23,15 @@ function Home() {
           </div>
         </div>
       </div>
+    <Row className='mx-0 pb-4'>
+
+      <Col xs={8} className='m-0 p-0'>
+        
+      </Col>
+      <Col xs={4} className='m-0 p-0'>
+        <Carousels />
+      </Col>
+    </Row>
     </>
   )
 }
