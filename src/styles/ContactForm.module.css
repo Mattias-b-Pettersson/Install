@@ -27,7 +27,7 @@
     background-size: cover;
     margin: 0;
     width: 100%;
-    min-height: 100vh;
+    min-height: calc(100vh - 83.59px);
 }
 
 .kontakt {
@@ -46,5 +46,4 @@
 
 .kontakt a:hover{
     color: #d25215;
-
 }
