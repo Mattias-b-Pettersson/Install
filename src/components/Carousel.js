@@ -24,7 +24,7 @@ export default function Carousels() {
       <Card.Img src={chargeBox} />
       <Card.ImgOverlay className={` ${style.mask} d-flex align-items-end`}>
         <Card.Text className='w-100'>
-          Om du behöver en billaddare installerad så hjälper vi dig.
+          Börjar din bil få slut på batteri? Hör av dig så installerar vi en laddare.
         </Card.Text>
       </Card.ImgOverlay>
     </Card>
