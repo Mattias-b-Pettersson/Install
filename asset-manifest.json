@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/install/static/css/main.e9bcac81.css",
-    "main.js": "/install/static/js/main.b9bb2ebd.js",
+    "main.js": "/install/static/js/main.f19d3ea4.js",
     "static/js/787.98726f40.chunk.js": "/install/static/js/787.98726f40.chunk.js",
     "static/media/hero.jpg": "/install/static/media/hero.107240a5b635845e2198.jpg",
     "static/media/ladder.jpg": "/install/static/media/ladder.8aba31d1e30a92b12ab6.jpg",
@@ -14,11 +14,11 @@
     "static/media/revicons.woff": "/install/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/install/index.html",
     "main.e9bcac81.css.map": "/install/static/css/main.e9bcac81.css.map",
-    "main.b9bb2ebd.js.map": "/install/static/js/main.b9bb2ebd.js.map",
+    "main.f19d3ea4.js.map": "/install/static/js/main.f19d3ea4.js.map",
     "787.98726f40.chunk.js.map": "/install/static/js/787.98726f40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9bcac81.css",
-    "static/js/main.b9bb2ebd.js"
+    "static/js/main.f19d3ea4.js"
   ]
 }
