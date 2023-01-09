@@ -8,7 +8,7 @@ import style from '../styles/Carousel.module.css'
 
 export default function Carousels() {
   return (
-    <Carousel className={style.carouselOuter}>
+    <Carousel className={`${style.carouselOuter} mx-auto`}>
     <CarouselItem>
     <Card className={`${style.carouselItem}`}>
       <Card.Img src={ladder} />
