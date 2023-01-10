@@ -23,9 +23,9 @@ function Home() {
           </div>
         </div>
       </div>
-    <Row className={`mx-0 pb-4 ${style.orangeGradientBg}`}>
-      <Col xs={12} lg={8} className='d-flex align-items-center'>
-        <p className="px-md-5 text-center my-5">
+    <Row className={`mx-0 pb-4 ${style.orangeGradientBg} d-flex justify-content-center`}>
+      <Col xs={10} md={5} xl={6} className='d-flex align-items-center '>
+        <p className="px-md-5 text-center my-5 lead">
           Install Elteknik, baserat i Stockholm, erbjuder ett brett utbud av elektriska tjänster för både bostäder och kommersiella fastigheter.
           Från installationer och reparationer till underhåll och besiktningar har vi kunskapen och expertisen att hantera alla dina elektriska behov.
           Vi är stolta över vår noggrannhet, tidsenlig service och engagemang för kundnöjdhet.
@@ -33,7 +33,7 @@ function Home() {
           Kontakta oss idag för alla dina elektriska behov i Stockholm och omgivande områden.
         </p>
       </Col>
-      <Col xs={12} lg={4} className=''>
+      <Col xs={10} md={5} xl={3} className=''>
         <Carousels />
       </Col>
     </Row>
