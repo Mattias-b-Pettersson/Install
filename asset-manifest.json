@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/install/static/css/main.e9bcac81.css",
-    "main.js": "/install/static/js/main.f19d3ea4.js",
+    "main.css": "/install/static/css/main.166b47e6.css",
+    "main.js": "/install/static/js/main.87642b53.js",
     "static/js/787.98726f40.chunk.js": "/install/static/js/787.98726f40.chunk.js",
     "static/media/hero.jpg": "/install/static/media/hero.107240a5b635845e2198.jpg",
     "static/media/ladder.jpg": "/install/static/media/ladder.8aba31d1e30a92b12ab6.jpg",
@@ -13,12 +13,12 @@
     "static/media/revicons.ttf": "/install/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/install/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/install/index.html",
-    "main.e9bcac81.css.map": "/install/static/css/main.e9bcac81.css.map",
-    "main.f19d3ea4.js.map": "/install/static/js/main.f19d3ea4.js.map",
+    "main.166b47e6.css.map": "/install/static/css/main.166b47e6.css.map",
+    "main.87642b53.js.map": "/install/static/js/main.87642b53.js.map",
     "787.98726f40.chunk.js.map": "/install/static/js/787.98726f40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9bcac81.css",
-    "static/js/main.f19d3ea4.js"
+    "static/css/main.166b47e6.css",
+    "static/js/main.87642b53.js"
   ]
 }
