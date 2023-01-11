@@ -2,6 +2,14 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 78px;
-    box-sizing: border-box;
+    height: 78px;   
+}
+
+.icon {
+    color: #d25215;
+}
+
+.icon:hover {
+    color: #b84713;
+    transition: all 0.3s ease-in-out;
 }

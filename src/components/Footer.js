@@ -1,18 +1,24 @@
-import { faSquareFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faSquareFacebook, faInstagramSquare } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import styles from '../styles/Footer.module.css'
+import styles from "../styles/Footer.module.css"
 
 const Footer = () => {
   return (
     <footer className="text-muted">
-    <Container className='d-flex justify-content-center align-items-center border-top border-1 py-4'>
-        <p className='d-inline m-0 fs-5'>
+    <Container className='d-flex border-top border-1 py-4'>
+        <p className='m-0 fs-5'>
             © 2021 Install Elteknik AB
         </p>
-        <FontAwesomeIcon icon={faSquareFacebook} className=" ms-2 fs-2" />
-        <FontAwesomeIcon icon={faInstagram} className="ms-2 fs-2" />
+        <div className='ms-auto'>
+            <a href="https://www.instagram.com" target="_blank" >
+                <FontAwesomeIcon icon={faSquareFacebook} className={`${styles.icon} fs-2 mx-1`} />
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <FontAwesomeIcon icon={faInstagramSquare} className={`${styles.icon} mx-1 fs-2 `} />
+            </a>
+        </div>
     </Container>
 </footer>
   )
