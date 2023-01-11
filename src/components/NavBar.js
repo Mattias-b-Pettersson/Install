@@ -1,7 +1,8 @@
 import React from 'react';
-import { Navbar, Nav, Container} from 'react-bootstrap';
+import { Navbar, Nav, Container, Image} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import style from "../styles/NavBar.module.css"
+import kollaelforetaget from '../assets/logos/logotyp-kollaelforetaget-webb.png' 
 
 function NavBar() {
   return (
@@ -16,6 +17,9 @@ function NavBar() {
             <Link to="/install" className='nav-link'>Hem</Link>
             <Link to="/install/kontakt" className='nav-link'>Kontakta oss</Link>
           </Nav>
+          <a href='https://www.elsakerhetsverket.se/kollaelforetaget/foretagsregister/?foretag=11069129&sok=1' target="_blank" rel="noreferrer">
+                <Image src={kollaelforetaget} height="40" className='p-0 m-0 mx-1 d-inline'/>
+          </a>
         </Navbar.Collapse>
       </Container>
     </Navbar>
