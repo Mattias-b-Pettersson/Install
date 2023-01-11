@@ -17,3 +17,9 @@
     font-size: 3rem;
     text-transform: uppercase;
 }
+
+
+.homeButton:hover {
+    background-color: #d25215 !important;
+    border-color: #d25215 !important;
+}

@@ -15,7 +15,7 @@ function Home() {
           <div className='d-flex justify-content-center align-items-center h-100'>
             <div className='text-white'>
               <h1 className='mb-3'><FontAwesomeIcon icon={faLightbulb} className="me-4 pb-1 d-none d-md-inline" />Vi lyser upp din vardag</h1>
-              <Link className='btn btn-outline-light btn-lg' to="/install/kontakt" role='button'>
+              <Link className={`btn btn-outline-light btn-lg ${style.homeButton}`} to="/install/kontakt" role='button'>
                 Kontakta oss
               </Link>
             </div>
