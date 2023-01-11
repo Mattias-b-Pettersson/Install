@@ -12,10 +12,10 @@ const Footer = () => {
             © 2021 Install Elteknik AB
         </p>
         <div className='ms-auto'>
-            <a href="https://www.instagram.com" target="_blank" >
+            <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faSquareFacebook} className={`${styles.icon} fs-2 mx-1`} />
             </a>
-            <a href="https://www.facebook.com" target="_blank">
+            <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
                 <FontAwesomeIcon icon={faInstagramSquare} className={`${styles.icon} mx-1 fs-2 `} />
             </a>
         </div>
