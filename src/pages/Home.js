@@ -3,7 +3,6 @@ import { faLightbulb} from '@fortawesome/free-solid-svg-icons';
 import React from 'react'
 import style from '../styles/Home.module.css'
 import { Link } from 'react-router-dom';
-import "react-multi-carousel/lib/styles.css";
 import Carousels from '../components/Carousel';
 import { Col, Row } from 'react-bootstrap';
 

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .App {
-  height: 100vh;
+  min-height: 99vh;
+  position: relative;
+  padding-bottom: 77px;
 }
 
 .App h1 {
