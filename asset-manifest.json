@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/install/static/css/main.166b47e6.css",
-    "main.js": "/install/static/js/main.87642b53.js",
+    "main.css": "/install/static/css/main.e4927d2a.css",
+    "main.js": "/install/static/js/main.28b00f51.js",
     "static/js/787.98726f40.chunk.js": "/install/static/js/787.98726f40.chunk.js",
     "static/media/hero.jpg": "/install/static/media/hero.107240a5b635845e2198.jpg",
     "static/media/ladder.jpg": "/install/static/media/ladder.8aba31d1e30a92b12ab6.jpg",
@@ -9,16 +9,13 @@
     "static/media/main-fusebox.jpg": "/install/static/media/main-fusebox.bb49e83a225a5165ca4e.jpg",
     "static/media/lamps.jpg": "/install/static/media/lamps.d1b5e63673b07db1a8fa.jpg",
     "static/media/charge-box.jpg": "/install/static/media/charge-box.4407850d09c37b915de2.jpg",
-    "static/media/revicons.eot": "/install/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/install/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/install/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/install/index.html",
-    "main.166b47e6.css.map": "/install/static/css/main.166b47e6.css.map",
-    "main.87642b53.js.map": "/install/static/js/main.87642b53.js.map",
+    "main.e4927d2a.css.map": "/install/static/css/main.e4927d2a.css.map",
+    "main.28b00f51.js.map": "/install/static/js/main.28b00f51.js.map",
     "787.98726f40.chunk.js.map": "/install/static/js/787.98726f40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.166b47e6.css",
-    "static/js/main.87642b53.js"
+    "static/css/main.e4927d2a.css",
+    "static/js/main.28b00f51.js"
   ]
 }
