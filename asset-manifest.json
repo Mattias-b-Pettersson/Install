@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/install/static/css/main.fbecd9c2.css",
-    "main.js": "/install/static/js/main.db30b7e6.js",
+    "main.js": "/install/static/js/main.b6f82655.js",
     "static/js/787.98726f40.chunk.js": "/install/static/js/787.98726f40.chunk.js",
     "static/media/hero.jpg": "/install/static/media/hero.107240a5b635845e2198.jpg",
     "static/media/ladder.jpg": "/install/static/media/ladder.8aba31d1e30a92b12ab6.jpg",
@@ -12,11 +12,11 @@
     "static/media/logotyp-kollaelforetaget-webb.png": "/install/static/media/logotyp-kollaelforetaget-webb.e334d11ecfebdb99732d.png",
     "index.html": "/install/index.html",
     "main.fbecd9c2.css.map": "/install/static/css/main.fbecd9c2.css.map",
-    "main.db30b7e6.js.map": "/install/static/js/main.db30b7e6.js.map",
+    "main.b6f82655.js.map": "/install/static/js/main.b6f82655.js.map",
     "787.98726f40.chunk.js.map": "/install/static/js/787.98726f40.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fbecd9c2.css",
-    "static/js/main.db30b7e6.js"
+    "static/js/main.b6f82655.js"
   ]
 }
