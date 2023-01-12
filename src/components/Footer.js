@@ -11,12 +11,12 @@ const Footer = () => {
     <footer className="text-muted">
     <Container className='border-top border-1 py-4'>
         <Row>
-            <Col xs={12} md={4} className='d-flex flex-column justify-content-center align-items-center'>
+            <Col xs={12} md={4} className='d-flex justify-content-center align-items-center'>
                 <p className='m-0 fs-5 d-inline'>
                     © 2021 Install Elteknik AB
                 </p>
             </Col>
-            <Col xs={12} md={4} className='d-flex flex-column justify-content-center align-items-center'>
+            <Col xs={12} md={4} className='d-flex justify-content-center align-items-center'>
                 <div className=''>
                     <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faSquareFacebook} className={`${styles.icon} fs-2 mx-1`} />
@@ -26,7 +26,7 @@ const Footer = () => {
                     </a>
                 </div>
             </Col>
-            <Col xs={12} md={4} className='d-flex flex-column justify-content-center align-items-center'>
+            <Col xs={12} md={4} className='d-flex justify-content-center align-items-center'>
                 <a href='https://www.elsakerhetsverket.se/kollaelforetaget/foretagsregister/?foretag=11069129&sok=1' target="_blank" rel="noreferrer">
                     <Image src={kollaelforetaget} height="40" className='p-0 m-0 mx-1 d-inline'/>
                 </a>
