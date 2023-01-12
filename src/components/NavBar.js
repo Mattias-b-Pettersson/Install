@@ -1,8 +1,8 @@
 import React from 'react';
-import { Navbar, Nav, Container, Image} from 'react-bootstrap';
+import { Navbar, Nav, Container} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import style from "../styles/NavBar.module.css"
-import kollaelforetaget from '../assets/logos/logotyp-kollaelforetaget-webb.png' 
+
 
 function NavBar() {
   return (
