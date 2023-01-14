@@ -37,7 +37,7 @@ function Home() {
         <Row className='mt-3'>
             <Col md={6} lg={3}>
                   <h3 className='d-block'>
-                    <FontAwesomeIcon icon={faTemperatureArrowUp} className="me-1" />
+                    <FontAwesomeIcon icon={faTemperatureArrowUp} className={`me-1 ${style.orangeIcon}`} />
                     Värmegolv
                   </h3>
                   <p className='text-muted'>
@@ -46,7 +46,7 @@ function Home() {
             </Col>
             <Col md={6} lg={3}>
                 <h3 className='d-block'>
-                  <FontAwesomeIcon icon={faSink} className="me-1" />
+                  <FontAwesomeIcon icon={faSink} className={`me-1 ${style.orangeIcon}`} />
                   Badrum
                 </h3>
                 <p className='text-muted'>
@@ -55,7 +55,7 @@ function Home() {
             </Col>
             <Col md={6} lg={3}>
                 <h3 className='d-block'>
-                  <FontAwesomeIcon icon={faChargingStation} className="me-1" />
+                  <FontAwesomeIcon icon={faChargingStation} className={`me-1 ${style.orangeIcon}`} />
                   Laddbox
                 </h3>
                 <p className='text-muted'>
@@ -64,7 +64,7 @@ function Home() {
             </Col>
             <Col md={6} lg={3}>
                 <h3 className='d-block'>
-                  <FontAwesomeIcon icon={faBolt} className="me-1" />
+                  <FontAwesomeIcon icon={faBolt} className={`me-1 ${style.orangeIcon}`} />
                   Elsäkerhet
                 </h3>
                 <p className='text-muted'>
