@@ -13,7 +13,7 @@ const Footer = () => {
         <Row>
             <Col xs={12} md={4} className='d-flex justify-content-center align-items-center'>
                 <p className='m-0 fs-5 d-inline'>
-                    © 2021 Install Elteknik AB
+                    Install Elteknik AB
                 </p>
             </Col>
             <Col xs={12} md={4} className='d-flex justify-content-center align-items-center'>
