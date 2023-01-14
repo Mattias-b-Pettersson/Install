@@ -1,10 +1,11 @@
 import React from 'react';
-import { faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faPhone, faEnvelope, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Col, Container, Row } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import styles from '../styles/ContactForm.module.css';
+import { motion } from "framer-motion";
 
 function ContactForm() {
     return (
@@ -25,7 +26,7 @@ function ContactForm() {
                     </Col>
                     <Col xs={12} md={8} xl={6} className={`${styles.form} mb-4`}>
                         <h1 className='mb-4 ms-2'>Skicka ett mail</h1>
-                        <Form>
+                        <Form onSubmit={(event) => {event.preventDefault()}}>
                             <Row>
                                 <Col xs={12} xl={6} className="px-4">
                                     <Form.Group className="mb-3" controlId="email">
@@ -52,9 +53,13 @@ function ContactForm() {
                                 </Col>
                             </Row>
                             <Row>
-                                <Button variant="primary" type="submit" className='btn btn-primary'>
-                                    Skicka
-                                </Button>
+                                <motion.button
+                                    whileHover={{ scale: 1.1 }}                                    
+                                    className={`text-white`}
+                                    whileTap={{ scale: 0.9 }}
+                                >
+                                    <p className='m-0'>Skicka<FontAwesomeIcon icon={faPaperPlane} className="ms-2 fs-5" /></p>
+                                </motion.button>
                             </Row>
                         </Form>
                     </Col>
