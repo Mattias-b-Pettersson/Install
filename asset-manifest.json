@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/install/static/css/main.fbecd9c2.css",
-    "main.js": "/install/static/js/main.29a7c1cc.js",
+    "main.css": "/install/static/css/main.e5a622a1.css",
+    "main.js": "/install/static/js/main.abaf8593.js",
     "static/js/787.98726f40.chunk.js": "/install/static/js/787.98726f40.chunk.js",
     "static/media/hero.jpg": "/install/static/media/hero.107240a5b635845e2198.jpg",
     "static/media/ladder.jpg": "/install/static/media/ladder.8aba31d1e30a92b12ab6.jpg",
@@ -11,12 +11,12 @@
     "static/media/charge-box.jpg": "/install/static/media/charge-box.4407850d09c37b915de2.jpg",
     "static/media/logotyp-kollaelforetaget-webb.png": "/install/static/media/logotyp-kollaelforetaget-webb.e334d11ecfebdb99732d.png",
     "index.html": "/install/index.html",
-    "main.fbecd9c2.css.map": "/install/static/css/main.fbecd9c2.css.map",
-    "main.29a7c1cc.js.map": "/install/static/js/main.29a7c1cc.js.map",
+    "main.e5a622a1.css.map": "/install/static/css/main.e5a622a1.css.map",
+    "main.abaf8593.js.map": "/install/static/js/main.abaf8593.js.map",
     "787.98726f40.chunk.js.map": "/install/static/js/787.98726f40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbecd9c2.css",
-    "static/js/main.29a7c1cc.js"
+    "static/css/main.e5a622a1.css",
+    "static/js/main.abaf8593.js"
   ]
 }
