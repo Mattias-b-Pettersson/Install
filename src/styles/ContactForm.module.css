@@ -10,16 +10,21 @@
     background-color: #d25215;
     border: none;
     border-radius: 7px;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem 1rem;
     font-size: 1rem;
     cursor: pointer;
-    width: 100px;
+    max-width: 200px;
     text-align: center;
     margin: 0 auto;
+    font-size: 1.3rem;
 }
 
 .form button:hover{
-    background-color: #b84713;
+    background-color: #d25215;
+}
+
+.form button:active{
+    background-color: #d25215;
 }
 
 .formOuter {
